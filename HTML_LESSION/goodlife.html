@@ -53,15 +53,30 @@
     </div>
     <div>
         <form action="basic_01.html" method="get">
-            <h2>Fill in the form below to share the current situation in your country</h2>
+            <h1>Fill in the form below to share the current situation in your country</h1>
+            <h2>Personal Details</h2>
             <label for="Email" > Enter Email:</label>
             <input type="email" id="Email" placeholder="Input your email address" required>
-            <label for="Situation">Situation in Your Country</label>
-            <input type="text" id="Situation" name="" placeholder="The current situation" required>
+            <br>
+            <p>Are you happy or not?</p>
+            <label for="Yes" >Yes</label>
+            <input type="radio" id="Yes" name="mood">
+            <label for="No" >No</label>
+            <input type="radio" id="No" name="mood">
+
+            <h2>Your Country Details</h2>
+            <textarea id="Situation" placeholder="Drop the details here" name="Details" cols="20" rows="10"></textarea>
+            <br>
             <label for="Country">Country</label>
-            <input type="text" id="Country" name="" value="Your Country" required>
+            <select name="" id="">
+                <option>Nigeria</option>
+                <option>Uganda</option>
+                <option>South Africa</option>
+            </select>
+            <br>
             <label for="Time">Time</label>
             <input type="time" id="Time" value="">
+            <br>
             <input type="submit" name="submit" value="submit">
         </form>
     </div>
