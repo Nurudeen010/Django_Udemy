@@ -52,12 +52,16 @@
         </table>
     </div>
     <div>
-        <form>
+        <form action="basic_01.html" method="get">
             <h2>Fill in the form below to share the current situation in your country</h2>
-            <input type="email" name="" value="Input your email address">
-            <input type="text" name="" value="The current situation">
-            <input type="text" name="" value="Your Country">
-            <input type="time" name="" value="">
+            <label for="Email" > Enter Email:</label>
+            <input type="email" id="Email" placeholder="Input your email address" required>
+            <label for="Situation">Situation in Your Country</label>
+            <input type="text" id="Situation" name="" placeholder="The current situation" required>
+            <label for="Country">Country</label>
+            <input type="text" id="Country" name="" value="Your Country" required>
+            <label for="Time">Time</label>
+            <input type="time" id="Time" value="">
             <input type="submit" name="submit" value="submit">
         </form>
     </div>
