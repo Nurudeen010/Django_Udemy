@@ -1,3 +1,7 @@
+body{
+    background-color: aliceblue;
+}
+
 h1{
     color: red;
 }
@@ -6,6 +10,11 @@ p{
     color: rgb(201, 132, 52);
 }
 
-div{
-    color: #39c934;
+
+#StoryB{
+    color: rgb(218, 30, 30);
+    background-color: aqua;
+}
+.StoryBg{
+    color: cadetblue;
 }
