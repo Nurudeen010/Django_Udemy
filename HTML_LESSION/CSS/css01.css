@@ -1,20 +1,16 @@
-body{
-    background-color: aliceblue;
-}
-
-h1{
-    color: red;
-}
-
-p{
-    color: rgb(201, 132, 52);
-}
-
-
 #StoryB{
-    color: rgb(218, 30, 30);
-    background-color: aqua;
+    color: black;
+    background-color: white;
+}
+
+#StoryB h1, h2{
+    color: red;
 }
 .StoryBg{
     color: cadetblue;
+}
+
+
+.StoryBg table{
+    color: red;
 }
