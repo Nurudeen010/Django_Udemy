@@ -1,0 +1,19 @@
+.FirstBox {
+    border: solid 5px green;
+}
+.SecondBox {
+    border: solid 20px black;
+    margin: 1% 1% 1%;
+}
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, h2{
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    text-align: center;
+}
