@@ -1,19 +1,29 @@
-.FirstBox {
-    border: solid 5px green;
-}
-.SecondBox {
-    border: solid 20px black;
-    margin: 1% 1% 1%;
-}
+
 body {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-h1, h2{
-    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    border: 40px solid red;
+    border-top: 0px;
 }
-.form{
-    text-align: center;
+
+p{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+form{
+    font-size: 1em;
+}
+
+#sub{
+    padding: 1%;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    border-radius: 15%;
+    background-color: red;
 }
